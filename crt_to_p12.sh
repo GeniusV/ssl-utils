@@ -1,0 +1,1 @@
+openssl pkcs12 -export -in from.crt -inkey privatekey.key -out to.p12 -name "alias"
